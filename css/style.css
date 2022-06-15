@@ -1,0 +1,153 @@
+/*Zeroing*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+.wrapper {
+  width: 100%;
+  background: whitesmoke;
+}
+._container {
+  max-width: 800px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+.body_title {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body_title span {
+  color: darkgray;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.body_title h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+}
+.body_img {
+  border: 10px solid #ffff;
+  height: 600px;
+  background: url('../img/images.png') 0 0 / cover no-repeat;
+}
+.body_text {
+  padding: 40px;
+}
+.body_text p {
+  opacity: 0.7;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.list {
+  line-height: 1.2;
+}
+.list li {
+  font-size: 24px;
+  background: url('../img/svgviewer-output.svg') left no-repeat;
+  padding: 0 0 0 30px;
+}
+ul li:nth-child(1) {
+  font-weight: 600;
+}
+ul li:nth-child(2) {
+  color: green;
+  font-style: italic;
+}
+ul li:nth-child(3) {
+  font-weight: 600;
+}
+ul li:nth-child(4) {
+  opacity: 0.7;
+}
+.body_text button {
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 15px;
+  background: cyan;
+  border-radius: 20px;
+  width: 160px;
+  box-shadow: 3px 3px 15px 1px;
+}
